@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de texto</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <br><br><h1 class="titulo">Encriptador de texto</h1><br><br>;
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto">Solo letras minúsculas, sin acento</label>
+ 
+        <input class="text-input" type="text" name="input-texto" id="frase" placeholder="Escriba su secreto" pattern="[a-z]{0,15}" title = "Solo letras minúsculas, sin acento " >
+        <input class="btn" type="submit" value="encriptar!" id="encriptar">
+        <input class="btn" type="submit" value="desencriptar!" id="desencriptar">
+      </form>
+    </section>
+
+    <section class="msg box">
+      <form action="">
+        <label for="input-texto">Texto encriptado</label>        
+        <input class="text-input" type="text" id="frase2">
+        <input class="btn" type="submit" value="copiar!" id="copy">
+      </form>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2022 - Magalí Medone | Curso de Programación ONE - Oracle Next Education</p>
+    <p>
+      <a href="mailto:magalimedone@gmail.com"><img border="0" alt="magalimedone@gmail.com" src="img/mail.png" width="38" height="38"></a>
+      <a href="https://www.instagram.com/magalimedone"><img border="0" alt="Instagram" src="img/instagram.png" width="55" height="40"></a>
+    </p>
+  </footer>
+
+<script src="./script.js"> </script>
+
+</body>
+</html>
